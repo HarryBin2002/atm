@@ -5,6 +5,7 @@
 #include <conio.h>
 #include "login_function.h"
 #include "send_money.h"
+#include "Signup.h"
 #include "withdraw.h"
 
 using namespace std;
@@ -140,6 +141,7 @@ void login_function()
 int main()
 {
 	introduction();
+	request_signup();
 	login_function();	
 
 	return 0;
